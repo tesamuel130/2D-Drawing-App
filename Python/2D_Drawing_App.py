@@ -81,3 +81,6 @@ line_width_label.pack(side="left", padx=5, pady=5)
 for width in [2, 5, 8]:
     width_button = tk.Button(root, text=str(width), command=lambda w=width: set_line_width(w))
     width_button.pack(side="left", padx=2, pady=5)
+    
+# Run the application
+root.mainloop()
